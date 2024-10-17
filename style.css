@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: lexend;
+    src: url('Fonts/Lexend-VariableFont_wght.ttf');
+}
+
+body {
+    font-family: lexend;
+}
+
+.d-flex { display: flex; }
+.align-center { align-items: center; }
+.justify-center { justify-content: center; }
+.flex-column { flex-direction: column; }
+
+.header-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem 0;
+    font-size: 2.75rem;
+}
